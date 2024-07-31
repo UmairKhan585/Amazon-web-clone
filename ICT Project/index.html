@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>AMAZON.COM</title>
+<link rel="stylesheet" type="text/css" href="chea.css">
+</head>
+<body bgcolor="#eaeded">
+    <style>
+        header {
+            background-color: rgb(19, 25, 33);
+            padding-bottom: 5px;
+        }
+
+        .ul {
+            list-style-type: none;
+        }
+
+        li {
+            display: inline-block;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+
+        .g {
+            overflow: hidden;
+            width: 120px;
+            height: 70px;
+        }
+
+        .r {
+            background-color: rgb(19, 25, 33);
+            padding-top: 30px;
+            color: lightgray;
+            text-align: center;
+            display: inline;
+            padding-bottom: 10px;
+            font-size: 20px;
+        }
+
+        .e {
+            width: 80;
+            color: black;
+        }
+
+        .size {
+            height: 80px;
+            background-color: lightgrey;
+            width: 50px;
+            font-size: 18px;
+        }
+
+        .search-bar {
+            border-color: black;
+            display: inline;
+            width:200px;
+
+        }
+
+        input[type=text] {
+            border: none;
+        }
+
+        .size1 {
+            width: 600px;
+            height: 80px;
+            font-size: 20px;
+            color: blue;
+        }
+
+        .re {
+            background-color: rgb(254,189, 105);
+            color: black;
+            cursor: pointer;
+            position: relative;
+            border: none;
+            vertical-align: middle;
+        }
+
+        .t {
+            height: 80;
+            padding-top: 15;
+            background-color: rgb(19, 25, 33);
+        }
+
+        .y {
+            color: lightgray;
+            font-size: 20;
+            font-weight: bold;
+        }
+
+        .pad2 {
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .u {
+            background-color: rgb(19, 25, 33);
+            padding-top: 30;
+            color: lightgray;
+            text-align: center;
+            display: inline;
+            padding-bottom: 10;
+            font-size: 20;
+        }
+
+        .i {
+            width: 80;
+            color: black;
+        }
+
+        .o {
+            background-color: rgb(19, 25, 33);
+            padding-top: 30;
+            padding-bottom: 100;
+            color: lightgray;
+            text-align: center;
+            display: inline;
+            padding-bottom: 10;
+            font-size: 20;
+            font-weight: bold;
+        }
+
+        .p {
+            background-color: rgb(8, 44, 71);
+        }
+
+        a:hover {
+            color: blue;
+        }
+
+        select:hover {
+            color: blue;
+        }
+
+        .s {
+            background-color: rgb(8, 44, 71);
+            color: white;
+        }
+
+        .inline {
+            color: white;
+            display: inline;
+        }
+
+        .w {
+            font-weight: bold;
+            background-color: rgb(8, 44, 71);
+            color: white;
+        }
+
+        .q {
+            float: right;
+            font-weight: bold;
+            background-color: rgb(8, 44, 71);
+            color: white;
+        }
+
+    </style>
+    </head>
+    <body bgcolor="lightgrey">
+        <header>
+            <nav>
+                <ul>
+                    <li><a></a><button><img class="g" src="https://tse4.mm.bing.net/th?id=OIP.WGxtnw81X7exO2PxiVlL9QHaEK&pid=Api&P=0&w=130&h=152"></button></img></a></li>
+                    <li>
+                    <button class="r">
+                            
+                            Delivery To <br>
+                            <select class="e">
+                                <option value="Pakistan">Pakistan</option>
+                                <option value="Turkey">Turkey</option>
+                                <option value="America">America</option>
+                                <option value="China">China</option>
+                                <option value="India ">India </option>
+                                <option value="UAE">UAE</option>
+                                <option value="Nepal">Nepal</option>
+                                <option value="Russia">Russia</option>
+                                <option value="France">France</option>
+                                <option value="Italy">Italy</option>
+                                <option value="Sri Lanka">Sri Lanka</option>
+
+                            </select>
+                        </button></a>
+                    </li>
+                    <li>
+                        <select class="size">
+                            <option value="All">All</option>
+                            <option value="All Departments">All Departments</option>
+                            <option value="Arts & Crafts">Arts & Crafts</option>
+                            <option value="Automotives">Automotives</option>
+                            <option value="Baby">Baby</option>
+                            <option value="Beauty and Personal care">Beauty and Personal care</option>
+                            <option value="Books">Books</option>
+                            <option value="Computers">Computers</option>
+                            <option value="Digital Music">Digital Music</option>
+                            <option value="Electronics">Electronics</option>
+                            <option value="Kindle Store">Kindle Store</option>
+                            <option value="Prime Video">Prime Video</option>
+                            <option value="Women's Fashion">Women's Fashion</option>
+                            <option value="Men's Fashion">Men's Fashion</option>
+                            <option value="Girls's Fashion">Girls's Fashion</option>
+                            <option value="Boys's Fashion">Boys's Fashion</option>
+                            <option value="Deals">Deals</option>
+                            <option value="Health & Household">Health & Household</option>
+                            <option value="Home & Kitchen">Home & Kitchen</option>
+                            <option value="Industries & Scientific">Industries & Scientific</option>
+                            <option value="Luggage">Luggage</option>
+                            <option value="Movies & TV">Movies & TV</option>
+                            <option value="Music, CDs & Vinyl">Music, CDs & Vinyl</option>
+                            <option value="Pet Supplies">Pet Supplies</option>
+                            <option value="Software">Software</option>
+                            <option value="Sports & Outdoors">Sports & Outdoors</option>
+                            <option value="Tools & Home Improvement">Tools & Home Improvement</option>
+                            <option value="Toys & Games">Toys & Games</option>
+                            <option value="Video Games">Video Games</option>
+                        </select>
+                        <form class="search-bar">
+                            <input class="size1" type="text" placeholder="Search">
+                            <button class="re"><img src="./images/searchbar1...PNG"></img></button>
+                        </form>
+                    </li>
+
+
+                    <li>
+                        <a>
+                            <button class="t">
+                                <label class="y"> Want to pay in </label>
+                                <br>
+                                <select class="pad2">
+                                    <option value="US Dollars">US Dollars</option>
+                                    <option value="Pak Rupees">Pak Rupees</option>
+                                    <option value="Euro ">Euro </option>
+                                    <option value="Dirham (AED)">Dirham (AED)</option>
+                                    <option value="Russian Ruble">Russian Ruble</option>
+                                    <option value="Riyal (SAR)">Riyal (SAR)</option>
+
+                                </select>
+                            </button>>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a target="_blank" href="sign-in.html"><button class="u">
+                            Hello Sign in <br>
+                            <select class="i">
+                                <option value="Accounts and list">Accounts and list</option>
+
+                            </select>
+                        </button>
+                        </a>
+                    </li>
+                    <li>
+                        <button class="o">
+                            Returns & Orders
+                        </button>
+                    </li>
+
+                </ul>
+            </nav>
+        </header>
+        <div class="p">
+            <div style="display: inline;">
+                <select class="s">
+                    <option value="All">All</option>
+                    <option value="Digital Content & Devices"><p style=" font-weight: bold;">Digital Content & Devices</p></option>
+                    <option value="Amazon Music"><p>Amazon Music</p></option>
+                    <option value="Kindle E-readers & Books"><p>Kindle E-readers & Books</p></option>
+                    <option value="Appstore for Android"><p>Appstore for Android</p></option>
+
+                    <option value="Shop By Department"><p style=" font-weight: bold;">Shop By Department</p></option>
+                    <option value="Electronics"><p>Electronics</p></option>
+                    <option value="Computers"><p>Computers</p></option>
+                    <option value="Smart Homes"><p>Smart Homes</p></option>
+                    <option value="Arts and crafts"><p>Arts and crafts</p></option>
+
+                    <option value="Programs & Features"><p style=" font-weight: bold;">Programs & Features</p></option>
+                    <option value="Gift Cards"><p>Gift Cards</p></option>
+                    <option value="#FoundltOnAmazon"><p>#FoundltOnAmazon</p></option>
+                    <option value="Amazon Live"><p>Amazon Live</p></option>
+                    <option value="International Shopping"><p>International Shopping</p></option>
+
+                    <option value="Help & Settings"><p style=" font-weight: bold;">Help & Settings</p></option>
+                    <option value="Your Account"><p>Your Account</p></option>
+                    <option value="English"><p>English</p></option>
+                    <option value="United States"><p>United States</p></option>
+                    <option value="Help"><p>Help</p></option>
+                </select>
+                <div class="inline">
+                    <button class="w">
+                        <p>
+                            Today's Deal
+                        </p>
+                    </button>
+                </div>
+                <div class="inline">
+                    <button class="w">
+                        <p>
+                            Customer Service
+                        </p>
+                    </button>
+                </div>
+                <div class="inline">
+                    <button class="w">
+                        <p>
+                            Gift Cards
+                        </p>
+                    </button>
+                </div>
+                <div class="inline">
+                    <button class="w">
+                        <p>
+                            Sell
+                        </p>
+                    </button>
+                </div>
+                <div class="inline">
+                    <button class="w">
+                        <p>
+                            Registry
+                        </p>
+                    </button>
+                    <div class="inline">
+                        <button class="q">
+                            <p>
+                                Amazon's response to COVID-19
+                            </p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+        <div class="sliderdiv">
+            <div class="slideshow">
+              
+            </div>
+        </div>
+        <br>
+        <div class='innerbox'>
+
+    <div class="sub"><h3>&nbsp; &nbsp;Amazon Basics</h3><div class="box"><a href=""><img src="/images/baner5.jpg"></div></a>&nbsp; &nbsp;&nbsp; &nbsp;<a href="">see more</a></div>
+    <div class="sub"><h3>&nbsp; &nbsp;Shop by Category</h3><div class="box"><a href=""><img src="/images/baner6.jpg"></div></a>&nbsp; &nbsp;&nbsp; &nbsp;<a href="">shop now</a></div>
+    <div class="sub"><h3>&nbsp; &nbsp;Electronics</h3><div class="box"><a href=""><img src="/images/baner7.jpg"></div></a>&nbsp; &nbsp;&nbsp; &nbsp;<a href="">see more</a></div>
+    <div class="bb"><div ><h3>&nbsp; &nbsp;Sign in for the best experience</h3><a href="sign-in.html" target="_blank"><button class="button">sign in securlly</button></a></div><div class="boxe"><a href=""><img src="baner12.jpg"></div></a>&nbsp; &nbsp;&nbsp; &nbsp;<a href=""></a></div></div>
+    
+
+
+</div>
+<br>
+
+        <div class='innerbox'>
+
+            <div class="sub"><h3>&nbsp; &nbsp;Shop top categories</h3><div class="box"><a href=""><img src="/images/baner1.jpg"></div></a>&nbsp; &nbsp;&nbsp; &nbsp;<a href="">see more</a></div>
+            <div class="sub"><h3>&nbsp; &nbsp;Deals & Promotions</h3><div class="box"><a href=""><img src="/images/baner2.jpg"></div></a>&nbsp; &nbsp;&nbsp; &nbsp;<a href="">shop more</a></div>
+            <div class="sub"><h3>&nbsp; &nbsp;Beauty picks</h3><div class="box"><a href=""><img src="/images/baner3.jpg"></div></a>&nbsp; &nbsp;&nbsp; &nbsp;<a href="">shop more</a></div>
+            <div class="sub"><h3>&nbsp; &nbsp;Easy returns</h3><div class="box"><a href=""><img src="/images/baner4.jpg"></div></a>&nbsp; &nbsp;&nbsp; &nbsp;<a href="">shop now</a></div>
+
+
+        </div>
+        <br>
+
+
+        <div class="container">
+            <div style="margin-left: 50px; margin-top: 10px; "> <span style="font-size: x-large;">Discover Amazon</span> &nbsp; &nbsp; <span><a href="">Click to learn more</a></span></div>
+            <div class='innercontainer'>
+
+                <div class="item"><a href=""><img src="/images/discover1.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/discover2.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/discover3.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/discover4.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/discover5.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/discover6.jpg"></div></a>
+
+
+
+            </div>
+        </div>
+        </div>
+
+
+
+        <br>
+
+        <div class="container">
+            <div style="margin-left: 50px; margin-top: 10px; "> <span style="font-size: x-large;">Top Beauty & Personal Care products</span> &nbsp; &nbsp; <span><a href="">Shop now</a></span></div>
+            <div class='innercontainer'>
+
+                <div class="item"><a href=""><img src="/images/beauty1.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/beauty2.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/beauty3.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/beauty4.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/beauty5.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/beauty6.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/beauty7.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/beauty8.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/beauty9.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/beauty10.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/beauty11.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/beauty12.jpg"></div></a>
+
+            </div>
+        </div>
+        </div>
+
+
+
+
+
+        <br>
+
+
+        <div class="container">
+            <div style="margin-left: 50px; margin-top: 10px; "> <span style="font-size: x-large;">Amazon Top Selllers</span> &nbsp; &nbsp; <span><a href="">Shop now</a></span></div>
+            <div class='innercontainer'>
+
+                <div class="item"><a href=""><img src="/images/topseller1.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/topseller2.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/topseller3.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/topseller4.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/topseller5.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/topseller6.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/topseller7.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/topseller8.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/topseller9.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/topseller10.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/topseller11.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/topseller12.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/topseller13.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/topseller14.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/topseller15.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/topseller16.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/topseller17.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/topseller18.jpg"></div></a>
+
+
+
+
+            </div>
+
+        </div>
+
+        </div>
+
+        <br>
+
+
+
+
+        <div class='innerbox'>
+
+            <div class="sub"><h3>&nbsp; &nbsp;Comfy styles for her</h3><div class="box"><a href=""><img src="/images/baner8.jpg"></div></a>&nbsp; &nbsp;&nbsp; &nbsp;<a href="">see more</a></div>
+            <div class="sub"><h3>&nbsp; &nbsp;Shop Laptops & Tablets</h3><div class="box"><a href=""><img src="/images/baner9.jpg"></div></a>&nbsp; &nbsp;&nbsp; &nbsp;<a href="">shop more</a></div>
+            <div class="sub"><h3>&nbsp; &nbsp;Explore home bedding</h3><div class="box"><a href=""><img src="/images/baner10.jpg"></div></a>&nbsp; &nbsp;&nbsp; &nbsp;<a href="">shop more</a></div>
+            <div class="sub"><h3>&nbsp; &nbsp;Create with strip lights</h3><div class="box"><a href=""><img src="/images/baner11.jpg"></div></a>&nbsp; &nbsp;&nbsp; &nbsp;<a href="">shop now</a></div>
+
+
+
+        </div>
+        </div>
+        <br>
+
+
+
+        <div class="container">
+            <div style="margin-left: 50px; margin-top: 10px; "> <span style="font-size: x-large;"> Must have Wireless products</span> &nbsp; &nbsp; <span><a href="">Shop now</a></span></div>
+            <div class='innercontainer'>
+
+                <div class="item"><a href=""><img src="/images/wireless1.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/wireless2.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/wireless3.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/wireless4.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/wireless5.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/wireless6.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/wireless7.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/wireless8.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/wireless9.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/wireless10.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/wireless11.jpg"></div></a>
+
+                <div class="item"><a href=""><img src="/images/wireless13.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/wireless14.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/wireless15.jpg"></div></a>
+
+
+
+            </div>
+        </div>
+        </div>
+
+        <br>
+        <div class="container">
+            <div style="margin-left: 50px; margin-top: 10px; "> <span style="font-size: x-large;">Stuffed Animals & Toys under $10</span> &nbsp; &nbsp; <span><a href="">Shop now</a></span></div>
+            <div class='innercontainer'>
+
+                <div class="item"><a href=""><img src="/images/toy1.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/toy2.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/toy3.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/toy4.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/toy5.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/toy6.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/toy7.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/toy8.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/toy9.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/toy10.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/toy11.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/toy12.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/toy13.jpg"></div></a>
+
+
+            </div>
+        </div>
+        </div>
+
+        <br>
+        <div class="container">
+            <div style="margin-left: 50px; margin-top: 10px; "> <span style="font-size: x-large;"> Our favorite Toys</span> &nbsp; &nbsp; <span><a href="">Shop now</a></span></div>
+            <div class='innercontainer'>
+
+
+
+                <div class="item"><a href=""><img src="/images/our1.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/our2.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/our3.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/our4.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/our5.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/our6.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/our7.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/our8.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/our9.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/our10.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/our11.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/our12.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/our13.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/our14.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/our15.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/our16.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/our17.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/our18.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/our19.jpg"></div></a>
+
+
+            </div>
+        </div>
+        </div>
+
+
+
+        <br>
+        <div class="container">
+            <div style="margin-left: 50px; margin-top: 10px; "> <span style="font-size: x-large;">Best Sellers in Baby</span> &nbsp; &nbsp; <span><a href="">Shop now</a></span></div>
+            <div class='innercontainer'>
+
+                <div class="item"><a href=""><img src="/images/baby1.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/baby2.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/baby3.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/baby4.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/baby5.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/baby6.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/baby7.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/baby8.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/baby9.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/baby10.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/baby11.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/baby12.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/baby13.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/baby14.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/baby15.jpg"></div></a>
+
+            </div>
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <br>
+
+        <div class="container">
+            <div style="margin-left: 50px; margin-top: 10px; "> <span style="font-size: x-large;">Popular Gifts in Baby</span> &nbsp; &nbsp; <span><a href="">Shop now</a></span></div>
+            <div class='innercontainer'>
+
+                <div class="item"><a href=""><img src="/images/gift1.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/gift2.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/gift3.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/gift4.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/gift5.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/gift6.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/gift7.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/gift8.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/gift9.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/gift10.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/gift11.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/gift12.jpg"></div></a>
+                <div class="item"><a href=""><img src="/images/gift13.jpg"></div></a>
+
+            </div>
+
+        </div>
+        </div>
+
+
+
+        <br>
+        <div class="bbox1">
+            <div class="boxtext">
+                Back&nbsp;&nbsp; to&nbsp;&nbsp; top
+            </div>
+        </div>
+        <div class="boxbigb">
+            <br />
+            <br />
+            <br />
+            
+            <div class="textbigb">
+             <a href="#Get to know us"  > Get to know us</a>
+            </div>
+            <div class="ALLTEXT1">
+                <ul>
+                    <li>
+                        <a>Careers</a>
+                        </li>
+                    <br />
+                    <br />
+                        <li><a >Blog</a></li>
+                    <br /><br />
+                      <li>  <a >About Amazon</a></li>
+                    <br /><br />
+                      <li>  <a >Invester Relation</a></li>
+                    <br /><br />
+                       <li> <a >Amazon Devieces</a></li>
+                    <br /><br />
+                       <li> <a >Amazon Tours</a></li>
+                    
+                </ul>
+            </div>
+            <div class="uu1">
+               <a href="#Make money with us"> Make money with us</a>
+            </div>
+            <div class="alltext2">
+                <ul>
+                    <li>
+                        <a>Sell Product On Amazon</a>
+                    </li>
+                    <br />
+                    <br />
+                    <li><a>Sell Apps On Amazon</a></li>
+                    <br />
+                    <br />
+                    <li>  <a>Become an Affillate</a></li>
+                    <br />
+                    <br />
+                    <li>  <a>Advertise Your Product</a></li>
+                    <br />
+                    <br />
+                    <li> <a>Self - Publish With Us</a></li>
+                    <br />
+                    <br />
+                    <li> <a>Host an Amazon Hub</a></li>
+                    <br />
+                    <br />
+                    <li>  <a>See More Make Money With Us</a></li>
+                </ul>
+            </div>
+            <div class="uu2">
+                <a href="#Amazon Payment Products">Amazon Payment Products</a>
+            </div>
+            <div class="alltext3">
+                <ul>
+                    <li>
+                        <a>Amazon Business Card</a>
+                    </li>
+                    <br />
+                    <br />
+                    <li><a>Shop With Points</a></li>
+                    <br />
+                    <br />
+                    <li>  <a>Reload your business Balance</a></li>
+                    <br />
+                    <br />
+                    <li>  <a>Amazon carrency converter</a></li>
+                   
+                </ul>
+            </div>
+            <div class="uu3">
+                <a href="#Let us help you">Let us help you</a>
+            </div>
+            <div class="alltext4">
+                <ul>
+                    <li>
+                        <a> Amazon and COVID-19</a>
+                    </li>
+                    <br />
+                    <br />
+                    <li><a>Your Account</a></li>
+                    <br />
+                    <br />
+                    <li>  <a>Your Orders</a></li>
+                    <br />
+                    <br />
+                    <li>  <a>Shipping Rates & Policies</a></li>
+
+                    <li>
+                        <a>Returns & Replacements </a>
+                    </li>
+                    <br />
+                    <br />
+                    <li><a>Manage Your Content and Devices</a></li>
+                    <br />
+                    <br />
+                    <li><a>Amazon Assistant</a></li>
+                    <br />
+                    <br />
+                    <li>  <a>Help</a></li>
+                    <br />
+                 
+                </ul>
+            </div>
+        </div>
+        <div class="box3">
+            <br />
+            <br />
+            <br />
+           <div class="img1"> <a href="url"> <img src="/images/amazon.png" height="30" width="70" /> </a></div> 
+            <div class="butt1">
+
+                <select>
+                    <option value="chaineis"> chainies  </option>
+                    <option value="hindi">hindi</option>
+                    <option value="rushian">rushian</option>
+                    <option value="English">english </option>
+                    <option value="urdu">urdu</option>
+                </select>
+                
+            </div>
+            <div class="buton2">
+                <button>
+                    $ USD - US DOLLOR 
+                </button>
+            </div>
+            <div class="buton3">
+                <button>
+                    <img src="/images/capture1.png" height="25" width="100"/>
+                </button>
+            </div>
+        </div>
+        <div class="gogarparty">
+            <br />
+            <br />
+            <div class="jogarinside1">
+        <ul4>
+            <li><a href="#Amazon music">Amazon Music</a></li>
+            <p>stream millions of song</p>
+            <li><a href="#Sells on amazon">Sells on amazon</a></li>
+            <p>start a <br />selling account</p>
+            <li><a href="#Audible">Audible</a></li>
+            <p>Listen to Books & <br /> Original audio<br /> performances</p>
+            <li><a href="#Goodreads">Goodreads</a></li>
+            <p>Book reviews &<br /> recommanded</p>
+            <li><a href="#Zappos">Zappos</a></li>
+            <p>Shoes and<br /> clothing</p>
+        </ul4>
+                </div>
+            <div class="jogar2">
+        <ul5>
+            <li><a href="#Amazon Advertizing">Amazon Advertizing</a></li>
+            <p>Find,attract<br /> and engage<br /> customers</p>
+            <li><a href="#Amazon Business">Amazon Business</a></li>
+            <p>Everything For<br /> Your Business</p>
+            <li><a href="#Book Depository">Book Depository</a></li>
+            <p>Books with free<br /> Delivery Worldwide</p>
+            <li><a href="#IMDb">IMDb</a></li>
+            <p>Movies,Tv &<br /> celebrities</p>
+            <li><a href="#Ring">Ring</a></li>
+            <p>Smart home <br />security system</p>
+        </ul5>
+                </div>
+            <div class="jogar3">
+        <ul6>
+            <li><a href="#Amazon Drive">Amazon Drive</a></li>
+            <p>Cloud Storage<br /> From Amazon</p>
+            <li><a href="#AmazonGlobal">AmazonGlobal</a></li>
+            <p>Ship orders<br /> internationally</p>
+            <li><a href="#Box office Mojo">Box office Mojo</a></li>
+            <p>Find Movie Box<br /> office Data</p>
+            <li><a href="#IMDbPro">IMDbPro</a></li>
+            <p>get Info Entertainment<br /> Professionals need</p>
+            <li><a href="#eero Wifi">eero Wifi</a></li>
+            <p>Stream 4K video<br /> in Every room</p>
+        </ul6>
+                </div>
+            <div class="jogar4">
+        <ul7>
+            <li><a href="#6pm">6pm</a></li>
+            <p>Score deals on<br /> fashion brand</p>
+            <li><a href="#Home Services">Home services</a></li>
+            <p>experienced Pro<br /> Happiness Gurantee</p>
+            <li><a href="#comiXology">ComiXology</a></li>
+            <p>Thousands of<br /> Digital Comics</p>
+            <li><a href="#Kindle Direct Publishing">Kindle Direct<br /> Publishing</a></li>
+            <p>Indie digital &<br /> Print Publishing<br /> Made Easy </p>
+            <li><a href="#Neighbors App">Neighbors App</a></li>
+            <p>Real-time Crime &<br /> Safety Alerts</p>
+        </ul7>
+                </div>
+            <div class="jogar5">
+        <ul8>
+            <li><a href="#Abebooks">Abebooks</a></li>
+            <p>Books art &<br /> collectibles</p>
+            <li><a href="#amazon Ignite">Amazon Ignite</a></li>
+            <p>Sell your Original<br /> Digital Educational<br /> Resourses</p>
+            <li><a href="#DpReview">Dpreview</a></li>
+            <p>Digital Photography</p>
+            <li><a href="#Prime Video Direct">Prime Video<br /> Direct</a></li>
+            <p>Video Distribution<br /> made easy </p>
+            <li><a href="#Amazon Subcription Boxes">Amazon Subscription<br /> Boxes</a></li>
+            <p>Top Subscription<br /> boxes-right<br /> to your door</p>
+        </ul8>
+                </div>
+            <div class="jogar6">
+        <ul9>
+            <li><a href="#ACX">ACX</a></li>
+            <p>Audiobook publishing<br /> made easy</p>
+            <li><a href="#amazon rapids">Amazon rapids</a></li>
+            <p>fun stories for kids on the go</p>
+            <li><a href="#East Dane">East Dane</a></li>
+            <p>Designer men's Fashion</p>
+            <li><a href="#Shopbop">Shopbop</a></li>
+            <p>Designers Fashion Brands </p>
+            <li><a href="#PillPack">PillPack</a></li>
+            <p>Pharmacy Simplified</p>
+        </ul9>
+                </div>
+        <div class="last">
+        <a class="Conditions">Condition of use  &nbsp;&nbsp;  Privacy notice &nbsp;&nbsp; Internet-Based ADs  &emsp;  &copy; 1996 TO 2020, Amazon.com,lnc.or its affilates</a>
+            </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>

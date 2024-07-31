@@ -1,0 +1,304 @@
+.innercontainer{
+	border: 0px ;
+	
+	margin-top: 20px;
+	
+	height: 240px;
+	width: 1200px;
+	display: flex;
+	margin-left:10px;
+	margin-right: 10px;
+ overflow-x:  auto;
+ overflow-y: hidden;
+
+
+}
+ .item{
+
+border: 3px;
+margin-right: 3px;
+text-align: center;
+
+margin-bottom: 4px;
+}
+.container{
+	height: 300px;
+	width: 1220px;
+	background-color: white;
+	margin-top: 2px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border:double white;
+
+
+}
+
+.innercontainer::-webkit-scrollbar {
+  
+    height: 7px;
+    width: 40px;
+  }
+  .innercontainer::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+   
+  }
+   
+ 
+  .innercontainer::-webkit-scrollbar-thumb {
+    border-radius: 7px;
+    
+  }
+  
+  .innercontainer::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  
+
+ 
+  .innerbox{
+
+background-color: #eaeded;
+	
+	margin-left: 6px;
+	
+height: 400px;
+margin-top: 8px;
+	display: flex;
+	
+ overflow-x: hidden;
+ overflow-y: hidden;
+
+  }
+  .box{
+
+height: 260px;
+width: 230px;
+border: 3px;
+margin-top: 50px;
+margin-left: 18px;
+
+margin-right: 16px;
+text-align: center;
+
+overflow: hidden;
+
+
+  }
+  .sub{
+  	background-color:white;
+  	height: 390;
+  	width: 270;
+margin-right: 24px;
+margin-left: 10px;
+  	border:double white;
+  }
+
+  .button{
+ margin-top: 40px;
+ margin-bottom: 20px;
+ margin-left: 40px;
+  background-color:#f1c85f;
+  border:none; 
+  color: white;
+  height: 30px;
+  width: 210px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  }
+  .boxe{
+
+  	margin-top: 0px;
+  	margin-left:  0px;
+  }
+  .bb{
+  
+  	background-color: white;
+  }
+  .slideshow{
+  width: 1220px;
+  height: 400px;
+
+  background-image: url(slide1.jpg); 
+  background-size: 100% 100%;
+  animation: slider 9s infinite linear;
+  margin-left: 400;
+  margin-bottom: 400;  
+}
+@keyframes slider{
+  0%{ background-image: url(slide2.jpg); }
+  35%{ background-image: url(slide3.jpg); }
+  65%{ background-image: url(slide4.jpg); }
+}
+.sliderdiv{
+    height:300px;
+    width:2550px;
+    margin-left:5px;
+}
+.re{
+    width:10px;
+    height:70px;
+    margin-right:50px;
+
+}
+.pad2{
+    margin-left:50px;
+}
+.search-bar{
+    width:80px;
+    height:50px;
+    border-radius:25px;
+}
+.g{
+    background-color:black;
+    border-radius:5px;
+}
+.w{
+    border-radius:5px;
+}
+.q{
+    border-radius:5px;
+}
+.u{
+    border-radius:5px;
+}
+.o{
+    border-radius:5px;
+}
+.t{
+    border-radius:5px;
+}
+.r{
+    border-radius:5px;
+}
+.size{
+    border-radius:5px;
+}
+
+.bbox1{
+    height:30px;
+    width:1220px;
+    border-style:solid;
+    background-color:#131a22;
+    margin-left:10px;
+}
+.boxtext{
+    text-align:center;
+    color:white;
+    font:bold;
+    margin-top:3px;
+}
+.boxbigb{
+    width:1225px;
+    height:500px;
+    background-color:#232f3e;
+    border:hidden;
+    margin-left:10px;
+}
+.textbigb{
+    font:bold;
+    color:white;
+    margin-left:150px;
+    
+}
+.ALLTEXT1{
+    color:white;
+    list-style-type:none;
+    margin-left:110px;
+}
+.uu1{
+    margin-left:400px;
+    margin-top:-265px;
+}
+.alltext2{
+    color:white;
+    margin-left:360px;
+}
+.uu2{
+    margin-left:660px;
+    margin-top:-305px;
+}
+.alltext3{
+    color:white;
+    margin-left:620px;
+}
+.uu3{
+    margin-left:930px;
+    margin-top:-185px;
+}
+.alltext4{
+    color:white;
+    margin-left:890px;
+}
+.box3{
+    height:90px;
+    width:1220px;
+    border-style:solid;
+    background-color:#232f3e;
+    margin-left:10px;
+}
+.img1{
+    margin-left:280px;
+}
+.butt1{
+    margin-left:380px;
+    margin-top:-25px;
+    border-radius:20px;
+}
+.buton2{
+    margin-left:470px;
+    margin-top:-20px;
+    border-radius:20px;
+}
+.buton3{
+    margin-left:630px;
+    margin-top:-30px;
+}
+.gogarparty{
+    height:600px;
+    width:1220px;
+    border-style:solid;
+    background-color:#131a22;
+    margin-left:10px;
+}
+.jogarinside1{
+    color:white;
+    font:small;
+    margin-left:20px;
+    
+}
+.jogar2{
+    margin-left:230px;
+    color:white;
+    margin-top:-445px;
+    font:smaller;
+}
+.jogar3{
+    margin-left:440px;
+    color:white;
+    margin-top:-465px;
+
+}
+.jogar4{
+    margin-left:630px;
+    color:white;
+    margin-top:-450px;
+}
+.jogar5{
+    color:white;
+    margin-left:68%;
+    margin-top:-39%;
+}
+.jogar6{
+    color:white;
+    margin-left:1000px;
+    margin-top:-41%;
+}
+.last{
+    color:white;
+    margin-left:220px;
+    margin-top:180px;
+}

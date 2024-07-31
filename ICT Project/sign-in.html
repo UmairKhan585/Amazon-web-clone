@@ -1,0 +1,125 @@
+<html>
+
+<head>
+    <title> Sign up </title>
+</head>
+
+<body>
+    <div style="width: 500; margin-left: 350; border-radius: 30; border-style: groove; padding-bottom: 50;">
+        <div style="text-align: center;">
+        <image src="https://tse2.mm.bing.net/th?id=OIP.ntrhuuDMvtG-h7qF_NYANQHaEp&pid=Api&P=0&w=294&h=185"></image>
+        </div>
+        <div style="text-align: center;">
+            <div style="background-color: sandybrown; width: 400; margin-left: 50;">
+                <h2>Sign-In</h2>
+            </div>
+            <form action="Sign-In"></form>
+            <form method="post" action="~/signup/submit" >
+            <label> Email address
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </label>
+            <input type="email" name="e_mail" value="" placeholder="Enter email-address :" required>
+            <br><br>
+            <label>Enter your Password</label>
+            <input type="password" name="password" placeholder="Enter password :" required>
+            <br><br>
+            <button style="width: 120; background-color: cadetblue;">Sign-In</button>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <button style="width: 90; background-color: red; display: inline;">Forget Password</button>
+        </div>
+    </div>
+    <div style=" border-style: groove; padding-left: 30; padding-bottom: 70;">
+    <div style="background-color: cadetblue; width: 700; margin-left: 200;">
+        <h1 style="text-align: center;">Sign-Up</h1>
+    </div>
+    <form action="sign-up"></form>
+    <form method="post" action="~/signup/submit"></form>
+    <label>First Name
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </label>
+    <input type="text" name="First name" value="" placeholder="Enter Your First name" required>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <label> Last Name
+        &nbsp;&nbsp;&nbsp;
+    </label>
+    <input type="text" name="Last name" placeholder="Enter Your Last name">
+    <br>
+    <br>
+    <label > Enter your age :</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input style="width: 80;" type="number" name="number" placeholder="Date">
+    <select >
+        <option value="Month"> Month</option>
+        <option value="January"> January</option>
+        <option value="February"> February</option>
+        <option value="March"> March</option>
+        <option value="April"> April</option>
+        <option value="May"> May</option>
+        <option value="June"> June</option>
+        <option value="July"> July</option>
+        <option value="August"> August</option>
+        <option value="September"> September</option>
+        <option value="October"> October</option>
+        <option value="November"> November</option>
+        <option value="December"> December</option>
+    </select>
+    <input type="number" name="number" placeholder="Year">
+    <br><br>
+    <label> Email address
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </label>
+    <input type="email" name="e_mail" placeholder="Enter email-address" required>
+    <br><br>
+    <label>Enter your Password
+        &nbsp;&nbsp;&nbsp;&nbsp;
+    </label>
+    <input type="password" name="password" placeholder="Enter password" required>
+    <br><br>
+    <label> Re-enter your password </label>
+    <input type="password" name="password" placeholder="Re-enter password" required>
+    <br><br>
+    <label> Your phone number
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </label>
+    <input type="number" name="number" placeholder="Enter your number" required>
+    <br>
+    <br>
+    <label> Your gender : </label>
+    <br>
+    <input type="radio" name="gender" value="male"> male
+    <br>
+    <input type="radio" name="gender" value="female"> female
+    <br>
+    <input type="radio" name="gender" value="non of above"> non of above
+    <br>
+    <br>
+    <label>Select your province </label><select>
+        <option value="none">
+            NONE
+        </option>
+        <option value="punjab">
+            PUNJAB
+        </option>
+        <option value="sindh">
+            SINDH
+        </option>
+        <option value="kyber pakhtoon khawa">
+            KPK
+        </option>
+        <option value="azad jammu kashmir">
+            KASHMIR
+        </option>
+        <option value="ISLAMABAD">
+            ISLAMABAD
+        </option>
+    </select>
+    <br>
+    <br>
+    <div style="text-align: center;">
+        <align="centre"><input type="submit" name="submit" value="submit">&nbsp;
+            <align="centre"><input type="reset" name="reset" value="reset"></align>
+    </div>
+</form>
+</div>
+</body>
+
+</html>
